@@ -1,0 +1,63 @@
+
+<!- ----- The following loads MathJax from the standard place ----- ->
+<script src=
+"http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"
+type="text/javascript">
+</script>
+<!- And this part allows a single dollar sign for inline equations ->
+<script type="text/x-mathjax-config">
+MathJax.Hub.Config({
+  tex2jax: {inlineMath: [['$','$'], ['\\(','\\)']]}
+});
+</script>
+
+<!- ------ This part embeds the youtube video -------------------- ->
+<p>
+<center>
+<iframe
+  width="420" height="315"
+  src="http://www.youtube.com/embed/I1uNPcYfKcI" frameborder="0" 
+  allowfullscreen>
+</iframe>
+</center>
+
+<!- ---------  Then comes the commentarty ------------------------- ->
+
+<center>
+<h2>Liouville's Theorem</h2>
+</center>
+
+The idea of this animation is to give an example of Liouville's theorem
+in phase space, as discussed in:
+<a href="http://www.youtube.com/watch?v=lQIbcV6dQzw">
+this Leonard Susskind Lecture</a> or
+<a href="http://en.wikipedia.org/wiki/Liouville%27s_theorem_%28Hamiltonian%29">
+this wikipedia article</a>.
+I'm using the following Hamiltonian and update equations:
+<p>
+<center>
+<font size=5>
+	$H=\sin(p) + \sin(x)$. 
+<p>
+	$\dot{x} = \frac{\partial H}{\partial p},\;\;\
+	\dot{p} = -\frac{\partial H}{\partial x}$
+<p>
+	$\dot{x} = \cos(p),\;\;\
+	\dot{p} = -\cos(x)$
+</font>
+</center>
+<p>
+This Hamiltonian is not intended to represent any actual physical system.
+I'm using it
+simply because it exhibits an "interesting" behaviour.
+
+We start out with a
+circle of radius 5 centered at the origin. In particular, it should be
+the case that none of the interior points (colored red) ever "cross" the
+boundary (colored black). Of course, I can only animate a finite number
+of points (in this case 1000 boundary points). But hopefully, it gives
+the basic picture.
+<p>
+The source code is at: <a href="xxx">xxx</a>. This works on Ubuntu 12.04
+with "all the regular python stuff" installed, for whatever that's worth.
+
