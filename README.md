@@ -14,8 +14,8 @@ These files contain a graphical demo of Liouville's Theorem in phase space:
     Liouville1.html - A web page that expains what's going on
     Liouville1.py - The python code
 
-These files contain a simple simulation of the time dependend Schroedinger
-equations, using the finite difference method:
+These files contain a simple simulation of the time dependent Schroedinger
+equation, using the finite difference method:
 
     csim_build.py - This builds the cython code
     csim_tdse.pyx - Cython code for the simulator
