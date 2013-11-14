@@ -9,10 +9,11 @@ a copy by saying:
 
 	git clone https://github.com/Mike-Witt/pmsg.git
 
-These files contain a graphical demo of Liouville's Theorem in phase space:
+This file contains a graphical demo of Liouville's Theorem in phase space:
 
-    Liouville1.html - A web page that expains what's going on
     Liouville1.py - The python code
+
+For more information, see: http://portland-math-and-science.org/2013/06/28/liouvilles-theorem-2
 
 These files contain a simple simulation of the time dependent Schroedinger
 equation, using the finite difference method:
