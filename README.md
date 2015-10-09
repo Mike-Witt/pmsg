@@ -13,8 +13,6 @@ This file contains a graphical demo of Liouville's Theorem in phase space:
 
     Liouville1.py - The python code
 
-For more information, see: http://portland-math-and-science.org/2013/06/28/liouvilles-theorem-2
-
 These files contain a simple simulation of the time dependent Schroedinger
 equation, using the finite difference method:
 
